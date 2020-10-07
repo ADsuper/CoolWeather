@@ -1,4 +1,6 @@
 apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
 
 android {
     compileSdkVersion 29
@@ -37,5 +39,8 @@ dependencies {
     implementation 'com.google.code.gson:gson:2.8.6'
 
     implementation 'org.litepal.guolindev:core:3.2.2'
+
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+
 
 }
